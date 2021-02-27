@@ -71,10 +71,6 @@ img {
 
   /* HEADER */
 
-.header{
-    padding-bottom: 115px;
-}
-
 .header__top-inner{
     display: flex;
     justify-content: space-between;
@@ -186,7 +182,6 @@ img {
     height: 20px;
 }
 
-
 .menu__item{
     padding: 15px 0;
 }
@@ -266,7 +261,6 @@ img {
     margin-left: 50px;
 }
 
-
 .content__page{
     border: 1px solid #b92c2c;
     padding: 20px;
@@ -282,3 +276,163 @@ img {
     text-decoration: none;
     color: #b92c2c;
 }
+
+/* SCHEME */
+
+.scheme{
+    padding-bottom: 100px;
+}
+
+.scheme__inner{
+    position: relative;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title::before{
+    content: "_";
+    position: absolute;
+    top: 0;
+    left: 506px;
+    font-weight: 300;
+    font-size: 50px;
+    color: #76C15E;
+}
+
+.scheme__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scheme__items{
+    max-width: 260px;
+}
+
+.scheme__box{
+    margin-left: 14px;
+}
+
+.scheme__number{
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 98px;
+    color: #E9EFF3;
+    position: relative;
+}
+
+.scheme__subtitle{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.scheme__number::before{
+    content: ".";
+    position: absolute;
+    top: -4px;
+    left: -20px;
+    font-weight: 300;
+    font-size: 100px;
+    color: #76C15E;
+}
+
+.scheme__text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* CATALOG */
+
+.catalog{
+    padding-bottom: 100px;
+}
+
+.catalog__content-inner{
+    display: grid;
+    min-height: 600px;
+    grid-template-columns: 1fr 460px 330px;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    position: relative;
+}
+
+.catalog__content-item:nth-child(1){
+    grid-row: span 2;
+}
+
+.catalog__content-item:nth-child(2){
+    grid-column: span 2;
+}
+
+.catalog__content-item{
+    background-color: #e9eff3;
+    border-radius: 5px;
+}
+
+.catalog__content-item-all::after{
+    content: "";
+    background-image: url('../images/catalog/led-screen.png');
+    position: absolute;
+    top: 389px;
+    left: 10px;
+    width: 300px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
+.catalog__content-item-color::after{
+    content: "";
+    background-image: url('../images/catalog/led-line.png');
+    position: absolute;
+    top: 123px;
+    left: 774px;
+    width: 400px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.catalog__content-item-driwer::after{
+    content: "";
+    background-image: url('../images/catalog/led-plata.png');
+    position: absolute;
+    top: 437px;
+    left: 605px;
+    width: 200px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.catalog__content-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 30px;
+}
+
+.catalog__content-link{
+    font-size: 18px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.catalog__content-link:hover{
+    color: #007BFF;
+} 
+
+.catalog__content-link{
+    margin-left: 30px;
+}
+
