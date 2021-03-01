@@ -293,6 +293,7 @@ img {
     line-height: 26px;
     text-align: center;
     margin-bottom: 50px;
+    text-transform: uppercase;
 }
 
 .title::before{
@@ -435,4 +436,171 @@ img {
 .catalog__content-link{
     margin-left: 30px;
 }
+
+/* PRODUCTS */
+
+.products{
+    padding-bottom: 100px;
+}
+
+.slider__content{
+    position: relative;
+}
+
+.slick-prev{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    top: 130px;
+    left: -75px;
+    cursor: pointer;
+    position: absolute;
+}
+.slick-next{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    top: 130px;
+    left: 1200px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.products__item--best::before{
+    content: "";
+    background-image: url(../images/products/vibor-pokupateley.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 125px;
+    left: 25px;
+    width: 170px;
+    height: 30px;
+}
+
+.products__item--fire::before{
+    content: "";
+    background-image: url(../images/products/skidka-ogon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.products__item--new::before{
+    content: "";
+    background-image: url(../images/products/novinki.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 30px;
+}
+
+.products__item{
+    margin-bottom: 45px;
+}
+
+.slider__products-img-link{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.category{
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    margin-bottom: 7px;
+}
+
+.slider__products-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.star{
+    margin: 12px 0 24px 0;
+}
+
+.slider__products-link{
+    padding: 10px;
+    background-color: #fc8100;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.products__more-link{
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    color: #007BFF;
+}
+
+/* DOWNLOAD */
+
+.download{
+    padding: 50px 0;
+}
+
+.dewnload__inner{
+    background-color: #e9eff3; 
+    border-radius: 5px;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download__link{
+    margin: 30px 0;
+}
+
+.download__text{
+    font-size: 29px;
+    line-height: 29px;
+}
+
+.download__btn{
+    padding: 20px 25px;
+    background-color: #76C15E;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
